@@ -2,8 +2,10 @@
 {
     public class MessageRecord
     {
+        
         public MessageRecord(int roomID, string authorName, string text)
         {
+            //UserStory 2A: As a message poster, I want to send markdown text that will be correctly formatted.
             RoomID = roomID;
             Text = text;
             AuthorName = authorName;
@@ -17,6 +19,7 @@
 
         public string Text
         {
+            //UserStory 2A: As a message poster, I want to send markdown text that will be correctly formatted.
             get;
             private set;
         }

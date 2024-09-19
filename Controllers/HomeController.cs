@@ -6,8 +6,10 @@ namespace CIS3285_Unit3Sample_2024.Controllers
 {
     public class HomeController : Controller
     {
+        
         private readonly ILogger<HomeController> _logger;
 
+        //Allie was here 
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;

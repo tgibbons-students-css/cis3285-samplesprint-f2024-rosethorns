@@ -15,6 +15,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         public ActionResult Details(int id)
         {
             //Hiba's user: As a message reading user, I want to view a list of rooms that represent conversations.
+            //User Story 2B
             return View();
         }
 
@@ -22,6 +23,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         public ActionResult Create()
         {
             //Hiba's user: As a message reading user, I want to view a list of rooms that represent conversations.
+            //User Story 2B again.
             return View();
         }
 

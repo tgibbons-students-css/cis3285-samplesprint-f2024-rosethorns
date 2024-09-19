@@ -9,6 +9,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         public ActionResult Index()
         {
             // Allies User: As a message posting user, I want to create rooms for categorizing conversations.
+            //Hiba's User Story 2B here
             return View();
         }
 
@@ -23,6 +24,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         public ActionResult Create()
         {
             // Allies User: As a message posting user, I want to create rooms for categorizing conversations.
+            //Hiba's User Story 2B again!
             return View();
         }
 

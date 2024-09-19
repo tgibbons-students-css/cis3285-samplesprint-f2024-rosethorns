@@ -4,6 +4,7 @@
     {
         public RoomRecord(string name, int roomId)
         {
+            //Oh YEAHHH ROSE THORNS IS AWESOME
             Name = name;
             RoomId1 = roomId;
         }

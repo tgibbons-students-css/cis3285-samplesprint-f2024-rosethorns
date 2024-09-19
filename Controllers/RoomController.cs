@@ -75,6 +75,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Delete(int id, IFormCollection collection)
         {
+            //Your favorite students were here 
             try
             {
                 return RedirectToAction(nameof(Index));

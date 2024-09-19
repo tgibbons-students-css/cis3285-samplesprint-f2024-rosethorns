@@ -14,12 +14,14 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         // GET: MessageController/Details/5
         public ActionResult Details(int id)
         {
+            //Hiba's user: As a message reading user, I want to view a list of rooms that represent conversations.
             return View();
         }
 
         // GET: MessageController/Create
         public ActionResult Create()
         {
+            //Hiba's user: As a message reading user, I want to view a list of rooms that represent conversations.
             return View();
         }
 
@@ -28,6 +30,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(IFormCollection collection)
         {
+            //Hiba's user: As a message reading user, I want to view a list of rooms that represent conversations.
             try
             {
                 return RedirectToAction(nameof(Index));

@@ -4,6 +4,7 @@
     {
         public MessageRecord(int roomID, string authorName, string text)
         {
+            // RoseThorns here!
             RoomID = roomID;
             Text = text;
             AuthorName = authorName;
@@ -23,6 +24,7 @@
 
         public string AuthorName
         {
+            //RoseThorns again!
             get;
             private set;
         }

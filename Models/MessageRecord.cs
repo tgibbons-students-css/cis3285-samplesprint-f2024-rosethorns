@@ -18,7 +18,7 @@
 
         public string Text
         {
-            //UserStory 2A: As a message poster, I want to send markdown text that will be correctly formatted.
+            //UserStory 2A: YUP
             get;
             private set;
         }

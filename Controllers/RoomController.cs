@@ -33,6 +33,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(IFormCollection collection)
         {
+            //TAKU: "As a system admin, I want to be able to set a limit to the number of users in any one room."
             try
             {
                 return RedirectToAction(nameof(Index));
@@ -55,6 +56,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, IFormCollection collection)
         {
+            //TAKU: "As a system admin, I want to be able to set a limit to the number of users in any one room."
             try
             {
                 return RedirectToAction(nameof(Index));

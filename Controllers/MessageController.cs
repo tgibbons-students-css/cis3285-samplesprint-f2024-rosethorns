@@ -32,6 +32,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(IFormCollection collection)
         {
+            //TAKU: "As a system administrator, I want to serve hundreds of users concurrently."
             //Hiba's user: As a message reading user, I want to view a list of rooms that represent conversations.
             try
             {
@@ -46,6 +47,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         // GET: MessageController/Edit/5
         public ActionResult Edit(int id)
         {
+            //TAKU: "As a system administrator, I want to serve hundreds of users concurrently."
             return View();
         }
 
@@ -54,6 +56,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, IFormCollection collection)
         {
+            //TAKU: "As a system administrator, I want to serve hundreds of users concurrently."
             try
             {
                 return RedirectToAction(nameof(Index));

@@ -12,6 +12,7 @@
 
         public int RoomID
         {
+            //TAKU: "As a system administrator, I want to serve hundreds of users concurrently."
             get;
             private set;
         }
